@@ -24,3 +24,17 @@ https://towardsdatascience.com/python-basics-6-lists-and-list-manipulation-a56be
 
 
 File Seek - https://www.youtube.com/watch?v=SEURXzTgvKI - watch this
+
+##Output Format
+```
+cidr_dict = {
+ "Bangalore-cidr": ['172.15.250.0/24',
+   '108.6172.22.80/28',
+   '192.148.72.0/23',....],
+ "France IPs": [
+   ....
+ ],
+}
+```
+
+print(cidr_dict['Bangalore-cidr'])
